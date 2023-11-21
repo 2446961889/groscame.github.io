@@ -1,3 +1,4 @@
+<<<<<<< HEAD:content/post/README.md
 +++
 title = "学习git命令行，顺便建立个人网站"
 author = ["wacl"]
@@ -179,3 +180,6 @@ end
 好吧，看到这里，你已经跟我一样有品味了。<br>
 
 </div>
+=======
+#+TITLE: 学习git命令行，顺便建立个人网站
+>>>>>>> f347888 (add lua.org):README.org
