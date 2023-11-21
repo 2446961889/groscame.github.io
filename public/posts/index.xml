@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 Sep 2023 07:54:50 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First_post</title>
+      <link>/posts/first_post/</link>
+      <pubDate>Thu, 28 Sep 2023 07:54:50 +0000</pubDate>
+      
+      <guid>/posts/first_post/</guid>
+      <description>你好，hugo</description>
+    </item>
+    
+    <item>
+      <title>emacs配置</title>
+      <link>/posts/emacs-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/emacs-config/</guid>
+      <description>(defun generate-package-list (packages) &amp;#34;Generate package! statements for a list of packages.&amp;#34; (mapconcat (lambda (package) (format &amp;#34;(package! %s)&amp;#34; package)) packages &amp;#34;\n&amp;#34;)) (defun write-package-statements-to-file (packages filepath) &amp;#34;Write package! statements for the given packages to the specified file.&amp;#34; (let* ((result (generate-package-list packages)) (header &amp;#34;;; -*- no-byte-compile: t; -*-\n;;; $DOOMDIR/packages.el\n&amp;#34;)) (with-temp-file filepath (insert header) (insert result)))) (setq package-list &amp;#39;(js2-mode simple-httpd all-the-icons all-the-icons-completion all-the-icons-dired async autorevert avy beacon bind-key cal-china-x calfw calfw-org calibredb cape capf-autosuggest cnfonts company company-tabnine consult consult-notes corfu counsel counsel-projectile crux delsel denote diff-hl diminish diredfl dirvish djvu doom-modeline doom-themes editorconfig ef-themes elfeed elfeed-goodies elfeed-org embark embark-consult eshell eshell-git-prompt eshell-syntax-highlighting eshell-up evil evil-collection evil-goggles evil-matchit evil-traces eww exec-path-from-shell expand-region fanyi fontaine gnuplot go-translate helm helpful htmlize hydra indium ivy ivy-yasnippet js-comint keycast ledger-mode magit magit-delta marginalia minions multiple-cursors nerd-icons netease-cloud-music no-littering nov ob-http orderless org-ai org-appear org-auto-tangle org-contrib org-modern org-roam org-transclusion ox-gfm ox-hugo ox-pandoc ox-reveal pangu-spacing paren pass pinyinlib plantuml-mode popper posframe projectile py-autopep8 pyim pyim-basedict python quelpa quelpa-use-package rainbow-delimiters request sdcv sendmail sh-script shackle shr shrink-path skewer-mode smartparens super-save toc-org try undo-tree use-package use-package-ensure-system-package valign vertico web-mode which-key xr yasnippet yasnippet-snippets)) (write-package-statements-to-file package-list &amp;#34;~/.</description>
+    </item>
+    
+  </channel>
+</rss>
