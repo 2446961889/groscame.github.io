@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'groscame Hugo Site'
+title = 'Groscame Hugo Blog'
 # config.toml
 [[module.imports]]
 path = "github.com/CaiJimmy/hugo-theme-stack/v3"
