@@ -85,3 +85,17 @@ for _, folderPath in ipairs(folders) do
 end
 file:close()
 ```
+
+)
+  end
+end
+<close()>
+\#+end_src
+
+    <write>(gitCommand .. "成功✌️\n")
+  else
+    <write>(gitCommand .. "Git pull 失败：" .. folderPath)
+  end
+end
+<close()>
+\#+end_src
